@@ -31,6 +31,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b199eccb233fc1c38dd7c3ec24aea0cae06e175143294fac560997114e738ff1"
 
 [[package]]
+name = "flowscripter_template_wasm_rust_library"
+version = "0.1.0"
+dependencies = [
+ "flowscripter_template_rust_library",
+ "wasm-bindgen",
+ "wasm-bindgen-test",
+]
+
+[[package]]
 name = "js-sys"
 version = "0.3.56"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -87,15 +96,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "unicode-xid",
-]
-
-[[package]]
-name = "template_wasm_rust_library"
-version = "0.1.0"
-dependencies = [
- "flowscripter_template_rust_library",
- "wasm-bindgen",
- "wasm-bindgen-test",
 ]
 
 [[package]]

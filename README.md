@@ -1,5 +1,11 @@
 # template-wasm-rust-library
 
+[![version](https://img.shields.io/github/v/release/flowscripter/template-wasm-rust-library?sort=semver)](https://github.com/flowscripter/template-wasm-rust-library/releases)
+[![build](https://img.shields.io/github/workflow/status/flowscripter/template-wasm-rust-library/release-wasm-rust-library)](https://github.com/flowscripter/template-wasm-rust-library/actions/workflows/release-wasm-rust-library.yml)
+[![dependencies](https://deps.rs/repo/github/flowscripter/template-wasm-rust-library/status.svg)](https://deps.rs/crate/flowscripter_template_wasm_rust_library)
+[![rust doc](https://img.shields.io/docsrs/flowscripter_template_wasm_rust_library)](https://docs.rs/flowscripter_template_wasm_rust_library)
+[![license: MIT](https://img.shields.io/github/license/flowscripter/template-wasm-rust-library)](https://github.com/flowscripter/template-wasm-rust-library/blob/main/LICENSE)
+
 > Project template for a Rust library compiled to WASM.
 
 ## Usage

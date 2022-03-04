@@ -7,6 +7,7 @@ use wasm_bindgen::prelude::*;
 
 /// Adds two numbers together.
 ///
+///
 /// # Examples
 /// ```
 /// let arg1 = 2;

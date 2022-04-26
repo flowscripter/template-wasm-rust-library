@@ -1,6 +1,6 @@
 [package]
 name = "flowscripter_template_wasm_rust_library"
-version ="1.0.2"
+version ="1.0.3"
 edition = "2021"
 description = "Project template for a Rust library compiled to WASM."
 homepage = "https://github.com/flowscripter"
@@ -11,8 +11,8 @@ repository = "https://github.com/flowscripter/template-wasm-rust-library"
 crate-type = ["cdylib","lib"]
 
 [dependencies]
-wasm-bindgen = "0.2.79"
+wasm-bindgen = "0.2.80"
 flowscripter_template_rust_library = "1.0.2"
 
 [dev-dependencies]
-wasm-bindgen-test = "0.3.29"
+wasm-bindgen-test = "0.3.30"

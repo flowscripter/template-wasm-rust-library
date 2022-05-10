@@ -32,7 +32,7 @@ checksum = "8b8841ac1dc9f3b0ad486453b509a0355dc18caf8beeff866a904a45a5a6bef2"
 
 [[package]]
 name = "flowscripter_template_wasm_rust_library"
-version = "1.1.1"
+version = "1.1.2"
 dependencies = [
  "flowscripter_template_rust_library",
  "wasm-bindgen",

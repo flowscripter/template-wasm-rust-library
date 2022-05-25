@@ -40,7 +40,7 @@ PNG image generated from `images/uml_diagram.mermaid`:
 
 Link to auto-generated API docs for the library:
 
-[API Documentation](https://docs.rs/crate/flowscripter_template_wasm_rust_library/latest)
+[API Documentation](https://docs.rs/flowscripter_template_wasm_rust_library)
 
 ## License
 

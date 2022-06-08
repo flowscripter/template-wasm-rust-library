@@ -17,8 +17,7 @@
 
 ## Development
 
-Install [wasm-pack](https://rustwasm.github.io/wasm-pack/):
-`cargo install wasm-pack`
+Install [wasm-pack](https://rustwasm.github.io/wasm-pack/): `cargo install wasm-pack`
 
 Install [Firefox](https://www.mozilla.org/firefox/browsers)
 

@@ -8,12 +8,24 @@
 
 > Project template for a Rust library compiled to WASM.
 
-## Usage
+## Project Template Usage
 
 1. Use as a
    [template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
    to create a new repository.
 2. Update links and references in `README.md`.
+
+## ESM Dependency Usage
+
+```javascript
+import * as wasmLib from "https://flowscripter.github.io/template-wasm-rust-library/flowscripter_template_wasm_rust_library.js";
+
+// init WASM module
+await wasmLib.default();
+
+// use WASM module
+wasmLib.add(2, 2);
+```
 
 ## Development
 
@@ -33,7 +45,7 @@ Lint: `cargo fmt`
 
 PNG image generated from `images/uml_diagram.mermaid`:
 
-![UML Diagram](images/uml_diagram.png "UML Diagram")
+![UML Diagram](https://raw.githubusercontent.com/flowscripter/template-wasm-rust-library/main/images/uml_diagram.png "UML Diagram")
 
 ### API
 

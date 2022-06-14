@@ -4,3 +4,5 @@
 /.releaserc
 package.json
 package-lock.json
+/*.profraw
+/coverage.lcov
